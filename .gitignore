@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/build/
+/CodexPersistance/build/
+/CodexPersistance/build/classes/java/main/
+/REST_Codex/build/
+/REST_Codex/build/classes/java/main/

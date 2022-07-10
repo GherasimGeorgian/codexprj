@@ -1,0 +1,4 @@
+rootProject.name = 'codexprj'
+include 'REST_Codex'
+include 'CodexPersistance'
+
