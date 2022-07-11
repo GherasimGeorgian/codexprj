@@ -35,8 +35,7 @@ public class Main extends Application {
         IClientRepository clientRepository = new ClientORMRepository(sessionFactory);
         ServiceCodex service = new ServiceCodex(clientRepository);
 
-        service.adaugaClient(new Client("bordel","parolavasile","email1","fr1","lr1",new Date(),"077777",AccountType.ADMIN));
-
+        service.adaugaClient(new Client("admin","admin","email1","fr1","lr1",new Date(),"077777",AccountType.CLIENT));
     }
 
 

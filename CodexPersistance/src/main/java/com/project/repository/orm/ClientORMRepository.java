@@ -17,6 +17,39 @@ public class ClientORMRepository implements IClientRepository {
         this.sessionFactory = sessionFactory;
     }
 
+    public Client findByEmail(String email){
+        sessionFactory.initialize();
+        Client client =null;
+        try(Session session = sessionFactory.getSessionFactory().openSession()) {
+            Transaction tx = null;
+
+            try {
+                tx = session.beginTransaction();
+
+                try {
+                    client =
+                            (Client)session.createQuery("from Client where email=:fn")
+                                    .setParameter("fn", email)
+                                    .uniqueResult();
+                }catch(Exception ex){
+                    ex.printStackTrace();
+                }
+
+
+                tx.commit();
+            } catch (RuntimeException ex) {
+                if (tx != null)
+                    tx.rollback();
+            }
+        }catch (Exception ex){
+
+            ex.printStackTrace();
+        }finally
+        {
+            sessionFactory.close();
+        }
+        return client;
+    }
     public Client findByUserName(String username){
         sessionFactory.initialize();
         Client client =null;

@@ -18,5 +18,9 @@
 
 
 
+    <bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" autowire="byName">
+
+    </bean>
+
 
 </beans>
