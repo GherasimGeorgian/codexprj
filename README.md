@@ -1,4 +1,4 @@
-### Multithreading Chat Client Java
+# Multithreading Chat Client Java
 
 [Android client Source Code](https://github.com/GherasimGeorgian/CodexMobile)
 
