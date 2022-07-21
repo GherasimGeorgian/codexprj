@@ -19,18 +19,18 @@
 
 [Desktop client Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/DesktopClientCodex/src/main)
 
-<img src="https://user-images.githubusercontent.com/63847951/180188462-e373bbf0-f9c8-4a66-8425-44766c7ea32b.JPG" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180188462-e373bbf0-f9c8-4a66-8425-44766c7ea32b.JPG" width="400" height="200" />
 
 
-<img src="https://user-images.githubusercontent.com/63847951/180188538-3bef6c95-7ea9-4461-8bd9-660b0b7b7d07.JPG" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180188538-3bef6c95-7ea9-4461-8bd9-660b0b7b7d07.JPG" width="400" height="200" />
 
-<img src="https://user-images.githubusercontent.com/63847951/180188585-48a10511-16fc-4e10-a2bb-0cc13df0a605.JPG" width="200" height="200" />
-
-
-<img src="https://user-images.githubusercontent.com/63847951/180188661-375068d5-65f1-43bc-b2a5-7661e7a99a08.JPG" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180188585-48a10511-16fc-4e10-a2bb-0cc13df0a605.JPG" width="400" height="200" />
 
 
-<img src="https://user-images.githubusercontent.com/63847951/180188720-7993543b-1e2c-4ccc-8f80-581f748da35f.JPG" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180188661-375068d5-65f1-43bc-b2a5-7661e7a99a08.JPG" width="400" height="200" />
+
+
+<img src="https://user-images.githubusercontent.com/63847951/180188720-7993543b-1e2c-4ccc-8f80-581f748da35f.JPG" width="400" height="200" />
 
 
 [Server Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/ServerChatFX/src/main/java/chat)
