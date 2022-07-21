@@ -69,6 +69,7 @@ public class ServiceCodex implements Observable<ChangeEvent>, UserDetailsService
         try {
             client.setPassword(passwordEncoder.encode(client.getPassword()));
             client.setAccountType(AccountType.CLIENT);
+            client.setUrl_photo("C:\\Users\\Ghera\\Downloads\\dadafa.jpg");
             Client clientRez = clientRepository.save(client);
             notifyObservers(new ChangeEvent(ChangeEventType.CLIENT_SAVE, clientRez));
             return clientRez;
@@ -94,5 +95,10 @@ public class ServiceCodex implements Observable<ChangeEvent>, UserDetailsService
     public Client getAccountByEmail(String email) {
         Client client = clientRepository.findByEmail(email);
         return client;
+    }
+
+    public String getUrlPhotoByUsername(String email) {
+        String url_ph = clientRepository.getUrlPhotoByUsername(email);
+        return url_ph;
     }
 }

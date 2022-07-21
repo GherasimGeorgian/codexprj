@@ -1,4 +1,6 @@
 rootProject.name = 'codexprj'
 include 'REST_Codex'
 include 'CodexPersistance'
+include 'ServerChatFX'
+include 'DesktopClientCodex'
 

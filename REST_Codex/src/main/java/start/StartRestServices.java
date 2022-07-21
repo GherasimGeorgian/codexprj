@@ -15,8 +15,6 @@ import security.SecurityConfig;
 @ComponentScan(basePackageClasses={Application.class, UICodex.class, CodexControllerREST.class, SecurityConfig.class})
 public class StartRestServices {
     public static void main(String[] args) {
-
-       // SpringApplication.run(StartRestServices.class, args);
         Application.launch(UICodex.class,args);
 
     }

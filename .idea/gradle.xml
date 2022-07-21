@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CodexPersistance" />
+            <option value="$PROJECT_DIR$/DesktopClientCodex" />
             <option value="$PROJECT_DIR$/REST_Codex" />
+            <option value="$PROJECT_DIR$/ServerChatFX" />
           </set>
         </option>
       </GradleProjectSettings>

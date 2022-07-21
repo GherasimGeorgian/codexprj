@@ -8,4 +8,6 @@ public interface IClientRepository extends IRepository<Long, Client>{
     Client findByUserName(String username);
 
     Client findByEmail(String email);
+
+    String getUrlPhotoByUsername(String email);
 }

@@ -13,6 +13,7 @@ public class Client extends Entity<Long>{
     private Date birthDay;
     private String phoneNumber;
     private AccountType accountType;
+    private String url_photo;
 
     public Client(Long id,String userName, String password){
         this.id = id;
@@ -23,6 +24,28 @@ public class Client extends Entity<Long>{
     public Client(){
 
     }
+
+    public Client(long id, String userName, String password, String email, String firstName, String lastName, Date birthDay, String phoneNumber, AccountType accountType, String url_photo) {
+        this.id = id;
+        this.userName = userName;
+        this.password = password;
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthDay = birthDay;
+        this.phoneNumber = phoneNumber;
+        this.accountType = accountType;
+        this.url_photo = url_photo;
+    }
+
+    public String getUrl_photo() {
+        return url_photo;
+    }
+
+    public void setUrl_photo(String url_photo) {
+        this.url_photo = url_photo;
+    }
+
     public Client(String userName, String password){
         this.userName = userName;
         this.password = password;

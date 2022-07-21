@@ -33,6 +33,9 @@
         <property
                 name="accountType"
                 column="accountType"/>
+        <property
+                name="url_photo"
+                column="url_photo"/>
 
     </class>
 </hibernate-mapping>

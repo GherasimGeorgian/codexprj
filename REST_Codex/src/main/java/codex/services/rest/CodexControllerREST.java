@@ -1,10 +1,13 @@
 package codex.services.rest;
 
+import chat.persistance.UserRepository;
+import chat.persistance.repository.jdbc.UserRepositoryJdbc;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.project.controller.Controller;
 import com.project.domain.Client;
 import com.project.repository.interfaces.IClientRepository;
 import com.project.repository.orm.ClientORMRepository;
@@ -16,8 +19,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -31,7 +36,10 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.RandomAccessFile;
 import java.net.URI;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -51,9 +59,6 @@ public class CodexControllerREST {
     @Autowired
     private ServiceCodex service;
 
-
-
-
     @GetMapping("/users")
     public ResponseEntity<List<Client>> getAll(){
         return ResponseEntity.ok().body(service.getClients());
@@ -64,12 +69,39 @@ public class CodexControllerREST {
         return ResponseEntity.created(uri).body(service.adaugaClient(client));
     }
 
-   // @GetMapping("/get_account_by_email")
    @RequestMapping(value = "get_account_by_email/{email}", method = RequestMethod.GET)
     public ResponseEntity<Client> getAccountByEmail(@PathVariable String email){
-        //String email = "gaois.gaos@gmail.com";
+
         URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("api/get_account_by_email").toUriString());
         return ResponseEntity.created(uri).body(service.getAccountByEmail(email));
+    }
+
+    @RequestMapping(value = "user/get_photo/{username}", method = RequestMethod.GET)
+    public ResponseEntity<byte[]> getPhotoByEmail(@PathVariable String username){
+        String url_photo = service.getUrlPhotoByUsername(username);
+
+        RandomAccessFile f = null;
+        try {
+            f = new RandomAccessFile(url_photo, "r");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        byte[] b = new byte[0];
+        try {
+            b = new byte[(int)f.length()];
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            f.readFully(b);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        final HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.IMAGE_JPEG);
+
+
+        return new ResponseEntity<byte[]>(b, headers, HttpStatus.OK);
     }
 
 
