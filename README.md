@@ -4,21 +4,23 @@
 
 <p float="left">
  <img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="400" />
-
-<img src="https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg" width="200" height="400" />
-
+ <img src="https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg" width="200" height="400" />
+ <img src="https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png" width="200" height="400" />
 </p>
 
 
-<img src="https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png" width="200" height="400" />
 
-<img src="https://user-images.githubusercontent.com/63847951/180190247-866bcf08-5704-46ea-ba3f-5dedc131772f.png" width="200" height="400" />
+<p float="left">
+ <img src="https://user-images.githubusercontent.com/63847951/180190247-866bcf08-5704-46ea-ba3f-5dedc131772f.png" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/63847951/180192008-e54685e0-a3e6-4e41-8ca7-906fca313073.png" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/63847951/180192019-0c9c5c62-d1ce-4482-9ed9-5f5b31f5fc2f.png" width="200" height="400" />
+</p>
+
+
 
 
 [Desktop client Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/DesktopClientCodex/src/main)
