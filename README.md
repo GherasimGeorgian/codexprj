@@ -14,11 +14,9 @@
 
 <img src="https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png" width="200" height="400" />
 
-<img src="https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/63847951/180192008-e54685e0-a3e6-4e41-8ca7-906fca313073.png" width="200" height="400" />
 
-![294756379_582343443462562_5179871783008915824_n](https://user-images.githubusercontent.com/63847951/180192008-e54685e0-a3e6-4e41-8ca7-906fca313073.png)
-
-![293189412_755968478782595_5140586285068600822_n](https://user-images.githubusercontent.com/63847951/180192019-0c9c5c62-d1ce-4482-9ed9-5f5b31f5fc2f.png)
+<img src="https://user-images.githubusercontent.com/63847951/180192019-0c9c5c62-d1ce-4482-9ed9-5f5b31f5fc2f.png" width="200" height="400" />
 
 
 [Desktop client Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/DesktopClientCodex/src/main)
