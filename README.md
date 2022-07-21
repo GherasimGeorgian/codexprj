@@ -1,11 +1,15 @@
 ###### Multithreading Chat Client Java
 
 [Android client Source Code](https://github.com/GherasimGeorgian/CodexMobile)
-<img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="400" />
 
-![Inked294413162_356332579995959_2011840005162852186_n](https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg)
-![293554898_1087496138508022_7334883107496349163_n](https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png)
-![294119309_1351574865365876_3030958995586781712_n](https://user-images.githubusercontent.com/63847951/180190247-866bcf08-5704-46ea-ba3f-5dedc131772f.png)
+<img src="https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg" width="200" height="400" />
+
+
+<img src="https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png" width="200" height="400" />
+
+<img src="https://user-images.githubusercontent.com/63847951/180190247-866bcf08-5704-46ea-ba3f-5dedc131772f.png" width="200" height="400" />
+
 ![294723031_773895073742540_4336764480822234615_n](https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png)
 ![294756379_582343443462562_5179871783008915824_n](https://user-images.githubusercontent.com/63847951/180190362-6e933951-a5df-4915-a705-8e4482a37bbb.png)
 ![293189412_755968478782595_5140586285068600822_n](https://user-images.githubusercontent.com/63847951/180190375-0ee19491-e6e6-477b-829d-3510832f0114.png)
