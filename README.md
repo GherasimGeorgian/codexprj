@@ -1,7 +1,7 @@
 ###### Multithreading Chat Client Java
 
 [Android client Source Code](https://github.com/GherasimGeorgian/CodexMobile)
-<img src="[http://....jpg](https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png)" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="200" />
 
 ![Inked294413162_356332579995959_2011840005162852186_n](https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg)
 ![293554898_1087496138508022_7334883107496349163_n](https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png)
