@@ -2,10 +2,12 @@
 
 [Android client Source Code](https://github.com/GherasimGeorgian/CodexMobile)
 
-
-<img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="400" />
+<p float="left">
+ <img src="https://user-images.githubusercontent.com/63847951/180189604-93a55414-659e-4a18-998b-96d5ed6d66ac.png" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/63847951/180190161-7ad103e1-2baa-4897-b699-20b309abf36c.jpg" width="200" height="400" />
+
+</p>
 
 
 <img src="https://user-images.githubusercontent.com/63847951/180190213-ff9d6599-5b8b-4cfd-9c53-24bdadc31066.png" width="200" height="400" />
