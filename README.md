@@ -10,22 +10,28 @@
 
 <img src="https://user-images.githubusercontent.com/63847951/180190247-866bcf08-5704-46ea-ba3f-5dedc131772f.png" width="200" height="400" />
 
-![294723031_773895073742540_4336764480822234615_n](https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png)
-![294756379_582343443462562_5179871783008915824_n](https://user-images.githubusercontent.com/63847951/180190362-6e933951-a5df-4915-a705-8e4482a37bbb.png)
-![293189412_755968478782595_5140586285068600822_n](https://user-images.githubusercontent.com/63847951/180190375-0ee19491-e6e6-477b-829d-3510832f0114.png)
+<img src="https://user-images.githubusercontent.com/63847951/180190329-82214cec-48b1-4ef4-9726-dc83ed955bd9.png" width="200" height="400" />
+
+<img src="https://user-images.githubusercontent.com/63847951/294756379_582343443462562_5179871783008915824_n.png" width="200" height="400" />
+
+<img src="https://user-images.githubusercontent.com/63847951/293189412_755968478782595_5140586285068600822_n.png" width="200" height="400" />
 
 
 [Desktop client Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/DesktopClientCodex/src/main)
 
-![ph1](https://user-images.githubusercontent.com/63847951/180188462-e373bbf0-f9c8-4a66-8425-44766c7ea32b.JPG)
+<img src="https://user-images.githubusercontent.com/63847951/180188462-e373bbf0-f9c8-4a66-8425-44766c7ea32b.JPG" width="200" height="200" />
 
-![ph2](https://user-images.githubusercontent.com/63847951/180188538-3bef6c95-7ea9-4461-8bd9-660b0b7b7d07.JPG)
 
-![ph3](https://user-images.githubusercontent.com/63847951/180188585-48a10511-16fc-4e10-a2bb-0cc13df0a605.JPG)
+<img src="https://user-images.githubusercontent.com/63847951/180188538-3bef6c95-7ea9-4461-8bd9-660b0b7b7d07.JPG" width="200" height="200" />
 
-![ph5](https://user-images.githubusercontent.com/63847951/180188661-375068d5-65f1-43bc-b2a5-7661e7a99a08.JPG)
+<img src="https://user-images.githubusercontent.com/63847951/180188585-48a10511-16fc-4e10-a2bb-0cc13df0a605.JPG" width="200" height="200" />
 
-![ph6](https://user-images.githubusercontent.com/63847951/180188720-7993543b-1e2c-4ccc-8f80-581f748da35f.JPG)
+
+<img src="https://user-images.githubusercontent.com/63847951/180188661-375068d5-65f1-43bc-b2a5-7661e7a99a08.JPG" width="200" height="200" />
+
+
+<img src="https://user-images.githubusercontent.com/63847951/180188720-7993543b-1e2c-4ccc-8f80-581f748da35f.JPG" width="200" height="200" />
+
 
 [Server Source Code](https://github.com/GherasimGeorgian/codexprj/tree/master/ServerChatFX/src/main/java/chat)
 
